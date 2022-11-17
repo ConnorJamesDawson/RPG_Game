@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31376eaae2d8a2140aa964fc670e7266, type: 3}
+  m_Name: Ranger Bill
+  m_EditorClassIdentifier: 
+  name: Ranger Bill
+  description: 
+  frontSprite: {fileID: 0}
+  type1: 5
+  type2: 0
+  maxHP: 45
+  attack: 49
+  defense: 49
+  spAttack: 65
+  spDefense: 65
+  speed: 0
+  learnableMoves:
+  - movesBase: {fileID: 11400000, guid: de7969a21c0afa646b15e9d332521267, type: 2}
+    level: 1
+  - movesBase: {fileID: 11400000, guid: 66ee63cbf511c60468926f69399b4b53, type: 2}
+    level: 2
+  - movesBase: {fileID: 11400000, guid: db665a611e0fa474ab064e8eb898a802, type: 2}
+    level: 3
