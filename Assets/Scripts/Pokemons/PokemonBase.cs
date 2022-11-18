@@ -14,7 +14,7 @@ public class PokemonBase : ScriptableObject
     //Sprite Displayed
     [SerializeField] Sprite frontSprite;
     //Dont have any back sprites to use 
-    //[SerializeField] Sprite BackSprite;
+    [SerializeField] Sprite backSprite;
 
     //Pokemon Type Selection
     [SerializeField] PokemonType type1;
@@ -43,6 +43,10 @@ public class PokemonBase : ScriptableObject
     public Sprite FrontSprite
     {
         get { return frontSprite;}
+    }
+    public Sprite BackSprite
+    {
+        get { return backSprite; }
     }
 
     public PokemonType Type1

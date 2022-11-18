@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Ranger Bill
   description: 
-  frontSprite: {fileID: 0}
+  frontSprite: {fileID: 976584483, guid: 020acc22e43edfb418b8008b69ace5d1, type: 3}
+  backSprite: {fileID: 1696202207, guid: 020acc22e43edfb418b8008b69ace5d1, type: 3}
   type1: 5
   type2: 0
   maxHP: 45
